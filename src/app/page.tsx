@@ -55,7 +55,8 @@ export default function Home() {
         <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
           Somos una empresa líder en diseño arquitectónico, construcción e inmobiliaria, comprometida con la excelencia y la innovación en cada proyecto que emprendemos.
         </p>
-        <image><img className="mx-auto" src="/nosotros.png" alt="Nosotros" width={600} height={400} /></image>
+        <image>
+          <img className="mx-auto" src="/nosotros.png" alt="Nosotros" width={600} height={400} /></image>
       </section>
       {/* 🔹 SECCIÓN SERVICIOS */}
       <br />
